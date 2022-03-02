@@ -11,11 +11,15 @@
 //   return maxLength
 // }
 
+//Intermediate Solution
+
 // const findLongestWord = (str) => {
 //   return str.split(" ").reduce((maxLength, word) => {
 //     return Math.max(maxLength, word.length)
 //   }, 0)
 // }
+
+//Advanced Solution
 
 const findLongestWord = (str) => {
   str = str.split(" ");
