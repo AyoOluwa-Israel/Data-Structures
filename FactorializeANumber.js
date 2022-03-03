@@ -16,6 +16,14 @@ const factorial2 = (num) => {
     return 1
   }
   return num * factorial2(num-1);
+
+}
+
+const factorial3 = (num) => {
+  for (var i = 1; num >= 1; num--){
+    i *= num
+  }
+  return a;
   
 }
 
