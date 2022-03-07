@@ -6,10 +6,7 @@
  *     this.right = (right===undefined ? null : right)
  * }
  */
-/**
- * @param {TreeNode} root
- * @return {number[]}
- */
+
 var inorderTraversal = function (root) {
   var stack = [];
   var now = root;
